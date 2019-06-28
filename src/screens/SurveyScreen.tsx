@@ -89,7 +89,7 @@ class SurveyScreen extends React.Component<SurveyScreenProps, SurveyScreenState>
                 }
                 {this.props.surveySubmitionStatus==='SUCCESS' &&
                     <div className='success-massage-overlay'>
-                        <span>¡Muchas gracias! <br/> Recibimos tus respuestas exitosamente.</span>
+                        <span>Thank you!<br/>We received your answers successfully.</span>
                     </div>
                 }
             </div>
